@@ -1,0 +1,33 @@
+{
+  "name": "npm-crypto-tipping",
+  "version": "1.0.0",
+  "description": "Tip the creator of an NPM package with crypto.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anader123/npm-crypto-tipping.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "layer2",
+    "ethereum",
+    "optimism",
+    "tipping"
+  ],
+  "author": "Nader",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anader123/npm-crypto-tipping/issues"
+  },
+  "homepage": "https://github.com/anader123/npm-crypto-tipping#readme",
+  "dependencies": {
+    "ethereum-qr-code": "^0.3.0",
+    "ethers": "^5.6.9",
+    "inquirer": "^8.2.4",
+    "npm-api": "^1.0.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
